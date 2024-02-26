@@ -1,3 +1,7 @@
+
+sudo apt-get install libmosquitto-dev  
+install the above libmosquitto-dev on ubuntu before compliation of mosquitto client.  it provide the mosquitto.h head file and library to support mosquitto function call
+
 g++ -o mqtt_json_publisher mqtt_json_publisher.cpp -lmosquitto -I./rapidjson
 
 g++ -o mqtt_publisher mqtt_publisher.cpp -lmosquitto -I./rapidjson
